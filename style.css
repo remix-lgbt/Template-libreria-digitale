@@ -1,0 +1,95 @@
+
+.books{
+    background-color: rgb(150, 88, 78);
+    padding: 20px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    max-width: 1200px;
+    box-shadow:30px 30px 30px rgb(0,0,0,0.3);
+    border-radius: 20px;
+    transition: trasform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.books:hover{
+    transform: scale(1.05);
+    box-shadow: 40px 40px 40px rgb(0,0,0,0.7)
+}
+
+
+.bookMonth{
+    background-color: rgb(121, 129, 101);
+    padding: 20px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    max-width: 1200px;
+    box-shadow:30px 30px 30px rgb(0,0,0,0.3);
+    border-radius: 20px;
+    transition: trasform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.bookMonth:hover{
+    transform: scale(1.05);
+    box-shadow: 40px 40px 40px rgb(0,0,0,0.7)
+}
+
+.img{
+    flex:1;
+    
+}
+
+img{
+    width:100%;
+    height: auto;
+    display: block;
+}
+
+.testo{
+    flex:2;
+}
+
+p {
+    font-family: Garamond;
+    text-align: center;
+    padding:10px;
+}
+
+h1 {
+    font-weight: bold;
+    font-family: Garamond;
+    text-align: center;
+    padding:10px; 
+}
+
+h2{
+    font-weight: bold;
+    font-family: Garamond;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(44,39,37);
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
